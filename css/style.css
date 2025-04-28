@@ -65,6 +65,38 @@ header nav a:hover {
     margin-bottom: 40px;
 }
 
+.image-carousel {
+    padding: 40px;
+    text-align: center;
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+.carousel-container {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;  /* Hides the images that are outside the viewport */
+    position: relative;
+}
+
+.carousel-images {
+    display: flex;
+    transition: transform 1s ease-in-out;  /* Smooth transition between images */
+}
+
+.carousel-images img {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    flex-shrink: 0;  /* Prevents images from shrinking */
+    border-radius: 10px;  /* Optional: rounded corners for images */
+}
+
+h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
 /* Centering the sections */
 .research-achievements {
     padding: 40px;
