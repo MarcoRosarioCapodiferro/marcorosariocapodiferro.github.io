@@ -67,9 +67,7 @@ header nav a:hover {
 
 /* Centering the sections */
 .research-achievements {
-    text-align: center; /* Center the sections title */
     padding: 40px;
-    text-align: center;
     background-color: #1f1f1f;
     margin: 20px auto;
     max-width: 1000px;
@@ -98,13 +96,13 @@ header nav a:hover {
 
 /* Styling the links */
 .first-author-papers a, .awards a, .talks a, .invited-speaker a, .conference-organization a, .international-training a {
-    color: #e0e0e0; /* Make link color the same as text */
+    color: #e0e0e0; /* Remove blue, match the text color */
     text-decoration: none; /* Remove underline */
 }
 
 .first-author-papers a:hover, .awards a:hover, .talks a:hover, .invited-speaker a:hover, .conference-organization a:hover, .international-training a:hover {
     text-decoration: underline; /* Optional: underline links on hover */
-    color: #90caf9; /* You can change the hover color if needed */
+    color: #90caf9; /* Hover color (can be customized) */
 }
 
 /* Add spacing to section titles */
