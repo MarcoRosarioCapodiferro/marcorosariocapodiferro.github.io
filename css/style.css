@@ -69,36 +69,53 @@ header nav a:hover {
     padding: 20px 0;
     text-align: center;
     background-color: #121212;
-    height: 600px; /* Ensure enough space for the images */
+    position: relative; /* To position the arrows */
+    height: 600px; /* Adjust based on your needs */
 }
 
 .carousel-container {
     width: 100%;
-    overflow: hidden; /* Hides the images that are outside the view */
+    overflow: hidden;
+    position: relative;
 }
 
 .carousel-images {
     display: flex;
-    transition: transform 1s ease-in-out; /* Smooth transition between images */
-    animation: scroll 30s linear infinite; /* Auto-scroll effect */
+    transition: transform 0.3s ease-in-out;
 }
 
 .carousel-images img {
     margin: 0 10px;
-    height: 100%; /* Allow images to take up full height of the container */
-    width: auto; /* Keep aspect ratio intact */
-/*    object-fit: cover; /* Cover the container without distortion */
+    height: 100%;
+    width: auto;
+    object-fit: cover;
 }
 
+/* Style for Previous and Next Buttons */
+button.prev, button.next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    font-size: 30px;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 100;
+}
 
+button.prev {
+    left: 10px; /* Position left arrow */
+}
 
-@keyframes scroll {
-    0% {
-        transform: translateX(0);
-    }
-    100% {
-        transform: translateX(-100%); /* Moves the entire set of images to the left */
-    }
+button.next {
+    right: 10px; /* Position right arrow */
+}
+
+/* Optional: Hover effect for the arrows */
+button.prev:hover, button.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
 }
 
 h2 {

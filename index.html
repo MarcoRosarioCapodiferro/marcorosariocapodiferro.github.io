@@ -46,36 +46,22 @@
 		</ul>
 		</div>
 	</section>
-    <!-- Home Section with Scrolling Images -->
-    <section class="image-carousel">
-        <h2>Trips, Friends, Colleagues, and Conferences</h2>
-        <div class="carousel-container">
-            <div class="carousel-images">
-            <img src="images/Carossell/PXL_20240801_094050909.MP.jpg" alt="Project 1">
-            <img src="images/Carossell/PXL_20240802_222323254.MP.jpg" alt="Project 2">
-            <img src="images/Carossell/PXL_20241116_15572962.RAW-01.MP.COVER.jpg" alt="Project 3">
-            <img src="images/Carossell/2M6A9052-Enhanced-NR.jpg" alt="Project 4"
-                <!-- Add more images as needed -->
-            </div>
-        </div>
-    </section>
+	<!-- Home Section with Images and Navigation Arrows -->
+	<section class="image-carousel">
+		<h2>Trips, Friends, Colleagues, and Conferences</h2>
+		<div class="carousel-container">
+			<button class="prev" onclick="moveSlide(-1)">&#10094;</button> <!-- Previous Button -->
+			<div class="carousel-images">
+				<img src="images/Carossell/PXL_20240801_094050909.MP.jpg" alt="Project 1">
+				<img src="images/Carossell/PXL_20240802_222323254.MP.jpg" alt="Project 2">
+				<img src="images/Carossell/PXL_20241116_15572962.RAW-01.MP.COVER.jpg" alt="Project 3">
+				<img src="images/Carossell/2M6A9052-Enhanced-NR.jpg" alt="Project 4">
+				<!-- Add more images as needed -->
+			</div>
+			<button class="next" onclick="moveSlide(1)">&#10095;</button> <!-- Next Button -->
+		</div>
+	</section>
 
-    <script>
-        let currentIndex = 0;
-        const images = document.querySelectorAll(".carousel-images img");
-        const totalImages = images.length;
-
-        function changeImage() {
-            currentIndex++;
-            if (currentIndex >= totalImages) {
-                currentIndex = 0;  // Reset to the first image after the last one
-            }
-            const newTransformValue = -100 * currentIndex + '%';  // Move the images
-            document.querySelector(".carousel-images").style.transform = `translateX(${newTransformValue})`;
-        }
-
-        setInterval(changeImage, 3000);  // Change image every 3 seconds
-    </script>
     <footer>
         <p>© 2025 Marco Rosario Capodiferro</p>
     </footer>
