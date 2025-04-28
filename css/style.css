@@ -84,9 +84,9 @@ header nav a:hover {
 
 .carousel-images img {
     margin: 0 10px;
-    height: 100%; /* Ensures images fit the container's height */
+    height: 100%; /* Ensures images fill the container's height */
     width: auto;  /* Maintain image aspect ratio */
-    object-fit: contain; /* Ensures images are contained within their boundaries */
+    object-fit: cover; /* Ensures images cover the full area of their container */
 }
 
 @keyframes scroll {
