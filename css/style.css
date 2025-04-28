@@ -66,30 +66,24 @@ header nav a:hover {
 }
 
 .image-carousel {
-    padding: 40px;
-    text-align: center;
-    background-color: #121212;
-    color: #e0e0e0;
-}
-
-.carousel-container {
-    width: 80%;
-    margin: 0 auto;
-    overflow: hidden;  /* Hides the images that are outside the viewport */
-    position: relative;
-}
-
-.carousel-images {
     display: flex;
-    transition: transform 1s ease-in-out;  /* Smooth transition between images */
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    height: 400px; /* You can adjust the height of the carousel */
+    width: 100%;
 }
 
-.carousel-images img {
-    width: 100%;
-    height: auto;
-    max-width: 100%;
-    flex-shrink: 0;  /* Prevents images from shrinking */
-    border-radius: 10px;  /* Optional: rounded corners for images */
+.image-carousel img {
+    margin: 0 10px;
+    height: 100%;  /* Ensure images fit in the container's height */
+    width: auto;   /* Ensure images maintain their aspect ratio */
+    object-fit: contain; /* Ensure the images will be contained within their boundaries */
+    transition: transform 0.3s ease-in-out;
+}
+
+.image-carousel img:hover {
+    transform: scale(1.05);  /* Optional: adds a zoom effect on hover */
 }
 
 h2 {
