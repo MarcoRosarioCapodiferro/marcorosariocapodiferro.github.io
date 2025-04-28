@@ -39,6 +39,43 @@ header nav a:hover {
     text-align: center;
 }
 
+/* ===== NEW PART: Centering About, Education, Contact Sections ===== */
+
+.about, .education, .contact-links {
+    text-align: center;
+    padding: 40px;
+}
+
+.about p, .education ul, .contact-links p {
+    margin: 0 auto;
+    max-width: 800px;
+    text-align: left;
+}
+
+/* Small improvements for Education list */
+.education ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.education li {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+/* Style links in Contact section */
+.contact-links a {
+    color: #90caf9;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+.contact-links a:hover {
+    text-decoration: underline;
+}
+
+/* Footer stays the same */
 footer {
     background-color: #1f1f1f;
     padding: 10px;
