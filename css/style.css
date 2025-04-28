@@ -4,7 +4,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    font-size: 18px;  /* Standard font size */
+    font-size: 18px; /* Standard font size */
     line-height: 1.6; /* Line height for better readability */
 }
 
@@ -69,16 +69,19 @@ header nav a:hover {
     padding: 20px 0;
     text-align: center;
     background-color: #121212;
+    overflow: hidden; /* Ensures images outside the view area are hidden */
+    position: relative; /* Make sure the carousel works within this section */
 }
 
 .carousel-container {
     width: 100%;
-    overflow: hidden; /* Ensures images outside the view area are hidden */
+    overflow: hidden; /* Prevents images from overflowing outside the container */
+    display: flex; /* Aligns the images horizontally */
 }
 
 .carousel-images {
     display: flex;
-    transition: transform 1s ease-in-out; /* Smooth transition between images */
+    transition: transform 1s ease-in-out;
     animation: scroll 30s linear infinite; /* Auto-scroll effect */
 }
 
@@ -94,7 +97,7 @@ header nav a:hover {
         transform: translateX(0);
     }
     100% {
-        transform: translateX(-100%); /* Move the entire set of images to the left */
+        transform: translateX(-100%); /* Moves the entire set of images to the left */
     }
 }
 
