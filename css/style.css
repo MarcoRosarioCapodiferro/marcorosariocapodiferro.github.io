@@ -39,8 +39,6 @@ header nav a:hover {
     text-align: center;
 }
 
-/* ===== NEW PART: Centering About, Education, Contact Sections ===== */
-
 .about, .education, .contact-links {
     text-align: center;
     padding: 40px;
@@ -52,7 +50,13 @@ header nav a:hover {
     text-align: left;
 }
 
-/* Small improvements for Education list */
+.section-content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left;
+    padding: 20px;
+}
+
 .education ul {
     list-style-type: none;
     padding: 0;
