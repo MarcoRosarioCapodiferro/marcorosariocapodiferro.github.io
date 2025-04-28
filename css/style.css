@@ -58,7 +58,9 @@ header nav a:hover {
     font-size: 18px; /* NEW: increase font size */
     line-height: 1.8; /* Ensure better spacing */
 }
-
+.big-space {
+    margin-bottom: 40px;
+}
 .education ul {
     list-style-type: none;
     padding: 0;
