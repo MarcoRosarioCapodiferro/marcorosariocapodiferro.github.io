@@ -69,13 +69,12 @@ header nav a:hover {
     padding: 20px 0;
     text-align: center;
     background-color: #121212;
-    height: 600px; /* Increased height of the carousel section */
+    height: 600px; /* Ensure enough space for the images */
 }
-
 
 .carousel-container {
     width: 100%;
-    overflow: hidden; /* Ensures images outside the view area are hidden */
+    overflow: hidden; /* Hides the images that are outside the view */
 }
 
 .carousel-images {
@@ -85,11 +84,12 @@ header nav a:hover {
 }
 
 .carousel-images img {
-    margin: 0 5px;
-    height: 500px; /* Increase the height */
-    width: auto;  /* Maintain aspect ratio */
-    object-fit: cover; /* Ensures the images fill the container without distortion */
+    margin: 0 10px;
+    height: 100%; /* Allow images to take up full height of the container */
+    width: auto; /* Keep aspect ratio intact */
+    object-fit: cover; /* Cover the container without distortion */
 }
+
 
 
 @keyframes scroll {
