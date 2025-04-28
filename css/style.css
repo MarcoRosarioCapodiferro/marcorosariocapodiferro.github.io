@@ -133,7 +133,7 @@ h2 {
 }
 
 /* Justify and Center content within lists */
-.first-author-papers, .awards, .talks, .invited-speaker, .conference-organization, .international-training {
+.first-author-papers, .awards, .talks, .invited-speaker, .conference-organization, .international-training, .education {
     margin-bottom: 30px;
     text-align: center; /* Ensures the section titles are centered */
 }
@@ -146,19 +146,19 @@ h2 {
     max-width: 800px; /* Keep it narrow for better readability */
 }
 
-.first-author-papers li, .awards li, .talks li, .invited-speaker li, .conference-organization li, .international-training li {
+.first-author-papers li, .awards li, .talks li, .invited-speaker li, .conference-organization li, .international-training li, .education li {
     font-size: 18px;
     line-height: 1.6;
     margin-bottom: 15px;
 }
 
 /* Styling the links */
-.first-author-papers a, .awards a, .talks a, .invited-speaker a, .conference-organization a, .international-training a {
+.first-author-papers a, .awards a, .talks a, .invited-speaker a, .conference-organization a, .international-training a, .education a{
     color: #e0e0e0; /* Remove blue, match the text color */
     text-decoration: none; /* Remove underline */
 }
 
-.first-author-papers a:hover, .awards a:hover, .talks a:hover, .invited-speaker a:hover, .conference-organization a:hover, .international-training a:hover {
+.first-author-papers a:hover, .awards a:hover, .talks a:hover, .invited-speaker a:hover, .conference-organization a:hover, .international-training a:hover, .education a:hover {
     text-decoration: underline; /* Optional: underline links on hover */
     color: #90caf9; /* Hover color (can be customized) */
 }
