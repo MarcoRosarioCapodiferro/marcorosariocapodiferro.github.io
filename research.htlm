@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en-IE">
+<head>
+    <meta charset="UTF-8">
+    <title>Research - Marco Rosario Capodiferro</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Research</h1>
+        <nav>
+            <a href="index.html">Home</a> |
+            <a href="research.html">Research</a> |
+            <a href="publications.html">Publications</a> |
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <section class="content">
+        <h2>Main Research Interests</h2>
+        <ul>
+            <li>Ancient DNA analysis and bioinformatics</li>
+            <li>Adaptive introgression in ancient populations</li>
+            <li>Genotype imputation methods for ancient genomes</li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>© 2025 Marco Rosario Capodiferro</p>
+    </footer>
+</body>
+</html>

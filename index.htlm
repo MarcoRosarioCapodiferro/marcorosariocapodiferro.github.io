@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en-IE">
+<head>
+    <meta charset="UTF-8">
+    <title>Marco Rosario Capodiferro</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Marco Rosario Capodiferro</h1>
+        <nav>
+            <a href="index.html">Home</a> |
+            <a href="research.html">Research</a> |
+            <a href="publications.html">Publications</a> |
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <section class="intro">
+        <img src="images/profile.png" alt="Profile Photo" class="profile-pic">
+        <p>Researcher in Genomics, Bioinformatics, and Human Evolution.</p>
+        <div class="links">
+            <p>Email: <a href="mailto:your@email.com">your@email.com</a></p>
+            <p><a href="#">Bluesky</a> | 
+               <a href="#">ORCID</a> | 
+               <a href="#">Google Scholar</a> | 
+               <a href="#">Scopus</a>
+            </p>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2025 Marco Rosario Capodiferro</p>
+    </footer>
+</body>
+</html>
