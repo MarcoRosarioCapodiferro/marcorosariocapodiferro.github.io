@@ -87,7 +87,7 @@ header nav a:hover {
     margin: 0 10px;
     height: 100%; /* Allow images to take up full height of the container */
     width: auto; /* Keep aspect ratio intact */
-    object-fit: cover; /* Cover the container without distortion */
+/*    object-fit: cover; /* Cover the container without distortion */
 }
 
 
