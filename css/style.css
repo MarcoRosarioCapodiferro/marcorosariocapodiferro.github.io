@@ -4,6 +4,8 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    font-size: 18px;  /* Standard font size */
+    line-height: 1.6; /* Line height for better readability */
 }
 
 header {
@@ -55,39 +57,50 @@ header nav a:hover {
     margin: 0 auto;
     text-align: left;
     padding: 20px;
-    font-size: 18px; /* NEW: increase font size */
-    line-height: 1.8; /* Ensure better spacing */
+    font-size: 18px;
+    line-height: 1.8;
 }
+
 .big-space {
     margin-bottom: 40px;
 }
-.education ul {
-    list-style-type: none;
-    padding: 0;
+
+.research-achievements {
+    padding: 40px;
+    background-color: #1f1f1f;
+    margin: 20px auto;
+    max-width: 1000px;
+    color: #e0e0e0;
 }
 
-.education li {
+.first-author-papers, .awards, .talks, .invited-speaker, .conference-organization, .international-training {
+    margin-bottom: 30px;
+}
+
+.first-author-papers ul, .awards ul, .talks ul, .invited-speaker ul, .conference-organization ul, .international-training ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.first-author-papers li, .awards li, .talks li, .invited-speaker li, .conference-organization li, .international-training li {
     font-size: 18px;
     line-height: 1.6;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 
-/* Style links in Contact section */
-.contact-links a {
+.first-author-papers a, .awards a, .talks a, .invited-speaker a, .conference-organization a, .international-training a {
     color: #90caf9;
     text-decoration: none;
-    margin: 0 5px;
 }
 
-.contact-links a:hover {
+.first-author-papers a:hover, .awards a:hover, .talks a:hover, .invited-speaker a:hover, .conference-organization a:hover, .international-training a:hover {
     text-decoration: underline;
 }
 
-/* Footer stays the same */
 footer {
     background-color: #1f1f1f;
-    padding: 10px;
+    padding: 15px;
+    color: #e0e0e0;
     text-align: center;
     font-size: 14px;
-    margin-top: 40px;
 }
