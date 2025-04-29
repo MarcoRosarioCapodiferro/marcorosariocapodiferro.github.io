@@ -210,6 +210,35 @@ button.prev:hover, button.next:hover {
     margin-bottom: 15px;
 }
 
+.first-author-papers, .awards, .talks, .invited-speaker, .conference-organization, .international-training, .education {
+    margin-bottom: 30px;
+    padding-left: 10px; /* To align with the section heading */
+}
+
+.first-author-papers ul, .awards ul, .talks ul, .invited-speaker ul, .conference-organization ul, .international-training ul, .education ul {
+    list-style-type: disc; /* Adding bullet points */
+    padding-left: 20px;
+    margin: 0 auto;
+    max-width: 800px; /* To limit the width */
+}
+
+.first-author-papers li, .awards li, .talks li, .invited-speaker li, .conference-organization li, .international-training li, .education li {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+/* Styling the links */
+.first-author-papers a, .awards a, .talks a, .invited-speaker a, .conference-organization a, .international-training a, .education a {
+    color: #e0e0e0; /* Remove blue, match the text color */
+    text-decoration: none; /* Remove underline */
+}
+
+.first-author-papers a:hover, .awards a:hover, .talks a:hover, .invited-speaker a:hover, .conference-organization a:hover, .international-training a:hover, .education a:hover {
+    text-decoration: underline; /* Optional: underline links on hover */
+    color: #90caf9; /* Hover color (can be customized) */
+}
+
 /* Latest News Section */
 .latest-news {
     padding: 30px;
