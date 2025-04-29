@@ -290,30 +290,50 @@ footer {
     font-size: 14px;
 }
 
-/* Media Queries for Responsiveness */
-
-/* Small Devices (Mobile Phones) */
 @media (max-width: 600px) {
     header nav a {
         display: block;
-        margin: 5px 0;
+        margin: 8px 0;
+        border-bottom: 1px solid #333;
+        padding: 10px 0;
     }
 
-    .intro, .about, .contact-links {
+    .intro,
+    .about,
+    .contact-links {
         padding: 20px;
     }
 
     .profile-pic {
-        width: 120px;
-        height: 120px;
+        width: 80%;
+        max-width: 200px;
+        height: auto;
     }
 
     .gallery-grid {
-        grid-template-columns: 1fr; /* Make it a single column */
+        grid-template-columns: 1fr;
     }
 
     .carousel-images img {
-        width: 80%;
+        width: 100%;
+        max-width: 90vw;
+        height: auto;
+    }
+
+    .content-box,
+    .section-content,
+    .research-achievements {
+        padding: 20px;
+        margin: 10px auto;
+        width: 95%;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    h2 {
+        font-size: 20px;
     }
 
     footer {
@@ -321,34 +341,3 @@ footer {
     }
 }
 
-/* Medium Devices (Tablets) */
-@media (max-width: 768px) {
-    .intro {
-        margin: 30px auto;
-    }
-
-    .profile-pic {
-        width: 130px;
-        height: 130px;
-    }
-
-    .gallery-grid {
-        grid-template-columns: repeat(2, 1fr); /* Two columns layout */
-    }
-
-    .carousel-images img {
-        width: 90%;
-    }
-}
-
-/* Large Devices (Larger Screens) */
-@media (min-width: 1200px) {
-    .carousel-images img {
-        width: 400px; /* Larger images for bigger screens */
-        height: 300px;
-    }
-
-    .section-content {
-        max-width: 1000px;
-    }
-}
