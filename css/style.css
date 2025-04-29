@@ -234,55 +234,51 @@ button.prev:hover, button.next:hover {
 }
 
 
-/* News Section */
-.news {
+/* Latest News Section */
+.latest-news {
     padding: 40px;
     background-color: #121212;
     color: #e0e0e0;
+    text-align: center;  /* Center the text */
 }
 
-.news h2 {
+.latest-news h2 {
     font-size: 2em;
     margin-bottom: 20px;
-    text-align: center;
 }
 
-.news-item {
-    margin-bottom: 20px;
-    padding: 20px;
-    background-color: #1f1f1f;
-    border-radius: 8px;
+.latest-news .news-item {
+    margin-bottom: 30px;
 }
 
-.news-item h3 {
-    font-size: 1.5em;
+.latest-news .news-item h3 {
+    font-size: 1.8em;
     margin-bottom: 10px;
 }
 
-.news-item p {
-    font-size: 1.1em;
-    line-height: 1.6;
-}
-
-.news-item a {
-    text-decoration: none;
+.latest-news .news-item a {
     color: #90caf9;
+    text-decoration: none;
 }
 
-.news-item a:hover {
+.latest-news .news-item a:hover {
     text-decoration: underline;
 }
 
-.view-all {
-    display: block;
-    text-align: center;
+.latest-news .view-all-news {
+    display: inline-block;
     margin-top: 20px;
     font-size: 1.2em;
     color: #90caf9;
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 2px solid #90caf9;
+    border-radius: 5px;
 }
 
-.view-all:hover {
-    text-decoration: underline;
+.latest-news .view-all-news:hover {
+    background-color: #90caf9;
+    color: #121212;
 }
 
 footer {
