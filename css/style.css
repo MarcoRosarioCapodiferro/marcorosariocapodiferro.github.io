@@ -30,10 +30,10 @@ header nav a:hover {
 }
 
 .profile-pic {
-    width: 150px;
-    height: 150px;
-    object-fit: cover;
-    margin-bottom: 20px;
+    width: 250px;  /* Increase width */
+    height: 250px; /* Increase height */
+    object-fit: cover;  /* Keeps the aspect ratio while covering the area */
+    margin-bottom: 20px; /* Maintain space below the image */
 }
 
 .content {
