@@ -30,10 +30,10 @@ header nav a:hover {
 }
 
 .profile-pic {
-    width: 300px;  /* Increase width */
-    height: 300px; /* Increase height */
-    object-fit: cover;  /* Keeps the aspect ratio while covering the area */
-    margin-bottom: 20px; /* Maintain space below the image */
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 20px;
 }
 
 .content {
@@ -78,14 +78,62 @@ header nav a:hover {
     margin-bottom: 20px;
 }
 
-/* Carousel Section */
+/* Research Section */
+.research-achievements {
+    padding: 40px;
+    background-color: #1f1f1f;
+    color: #e0e0e0;
+    margin: 20px auto;
+    max-width: 1000px;
+}
+
+.research-achievements h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.research-achievements h3 {
+    font-size: 1.6em;
+    margin-bottom: 15px;
+}
+
+.first-author-papers, .awards, .talks, .invited-speaker, .conference-organization, .international-training, .education {
+    margin-bottom: 30px;
+    padding-left: 10px; /* To align with the section heading */
+}
+
+.first-author-papers ul, .awards ul, .talks ul, .invited-speaker ul, .conference-organization ul, .international-training ul, .education ul {
+    list-style-type: disc; /* Adding bullet points */
+    padding-left: 20px;
+    margin: 0 auto;
+    max-width: 800px; /* To limit the width */
+}
+
+.first-author-papers li, .awards li, .talks li, .invited-speaker li, .conference-organization li, .international-training li, .education li {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+/* Styling the links */
+.first-author-papers a, .awards a, .talks a, .invited-speaker a, .conference-organization a, .international-training a, .education a {
+    color: #e0e0e0; /* Remove blue, match the text color */
+    text-decoration: none; /* Remove underline */
+}
+
+.first-author-papers a:hover, .awards a:hover, .talks a:hover, .invited-speaker a:hover, .conference-organization a:hover, .international-training a:hover, .education a:hover {
+    text-decoration: underline; /* Optional: underline links on hover */
+    color: #90caf9; /* Hover color (can be customized) */
+}
+
 /* Carousel Section */
 .image-carousel {
     padding: 20px 0;
     text-align: center;
     background-color: #121212;
     position: relative;
-    height: 400px; /* Reduced the height */
+    height: 400px; /* Adjust height for carousel */
 }
 
 .carousel-container {
