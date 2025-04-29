@@ -78,6 +78,57 @@ header nav a:hover {
     margin-bottom: 20px;
 }
 
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Use flexible grid columns */
+    gap: 15px; /* Space between the images */
+    justify-items: center;
+    padding: 20px;
+}
+
+.gallery-grid img {
+    width: 100%;
+    height: auto;
+    max-height: 250px; /* Limit max height to fit the page */
+    object-fit: cover;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.gallery-grid img:hover {
+    transform: scale(1.05); /* Hover effect to slightly zoom in */
+}
+
+/* Style for the lightbox (popup view) */
+.lightbox {
+    display: none; /* Hidden by default */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8); /* Dark background */
+    justify-content: center;
+    align-items: center;
+}
+
+.lightbox img {
+    max-width: 90%;
+    max-height: 80%;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+}
+
+.lightbox .close-btn {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+}
+
 /* Research Section */
 .research-achievements {
     padding: 40px;
@@ -180,6 +231,58 @@ button.next {
 /* Hover effect for the arrows */
 button.prev:hover, button.next:hover {
     background-color: rgba(0, 0, 0, 0.8);
+}
+
+
+/* News Section */
+.news {
+    padding: 40px;
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+.news h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.news-item {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #1f1f1f;
+    border-radius: 8px;
+}
+
+.news-item h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.news-item p {
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+.news-item a {
+    text-decoration: none;
+    color: #90caf9;
+}
+
+.news-item a:hover {
+    text-decoration: underline;
+}
+
+.view-all {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1.2em;
+    color: #90caf9;
+}
+
+.view-all:hover {
+    text-decoration: underline;
 }
 
 footer {
