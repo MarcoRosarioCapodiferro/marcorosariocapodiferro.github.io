@@ -23,7 +23,7 @@ header nav a {
 header nav a:hover {
     text-decoration: underline;
 }
-
+/* Section for Intro */
 .intro {
     text-align: center;
     margin: 50px auto;
@@ -41,6 +41,7 @@ header nav a:hover {
     text-align: center;
 }
 
+/* Section for About */
 .about, .education, .contact-links {
     text-align: center;
     padding: 40px;
@@ -239,49 +240,37 @@ button.prev:hover, button.next:hover {
 
 /* Latest News Section */
 .latest-news {
-    padding: 40px;
-    background-color: #121212;
-    color: #e0e0e0;
-    text-align: center;
-    margin: 0 auto;
-    max-width: 1000px; /* Set a maximum width */
-}
-
-/* News Item Section */
-.latest-news .news-item {
-    background-color: #1f1f1f;
-    padding: 20px;
-    margin-bottom: 20px;
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
-}
-
-/* News Title */
-.latest-news h3 {
-    font-size: 1.8em;
-    margin-bottom: 10px;
-    color: #90caf9;
-}
-
-/* News Description */
-.latest-news p {
-    font-size: 1.1em;
-    line-height: 1.6;
-    margin-bottom: 10px;
-}
-
-/* Ensure the "View All News" link is centered */
-.latest-news .view-all-news {
-    font-size: 1.2em;
-    color: #90caf9;
-    text-decoration: none;
-    text-align: center;
-    display: block;
+    padding: 30px;
+    background-color: #333;  /* Grey background for the section */
     margin-top: 20px;
+    text-align: center;
+    color: #e0e0e0;
 }
 
-.latest-news .view-all-news:hover {
+.latest-news h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+/* Latest News Individual Items */
+.latest-news h3 {
+    color: white; /* White color for the "New Talk" title */
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+/* News content color */
+.latest-news p {
     color: #e0e0e0;
+}
+
+.latest-news a {
+    color: #2196F3; /* More visible blue for the ISBA11 link */
+    text-decoration: none;
+}
+
+.latest-news a:hover {
+    text-decoration: underline;
 }
 
 footer {
