@@ -54,6 +54,61 @@ header nav a:hover {
     max-width: 800px;
     text-align: left;
 }
+/* Carousel Section */
+.image-carousel {
+    padding: 20px 0;
+    text-align: center;
+    background-color: #121212;
+    position: relative;
+    height: 400px; /* Adjust height for carousel */
+    overflow: hidden; /* Prevents overflow of images */
+}
+
+.carousel-container {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.carousel-images {
+    display: flex;
+    transition: transform 0.3s ease-in-out; /* Smooth image transition */
+}
+
+.carousel-images img {
+    margin: 0 10px;
+    height: 300px; /* Set a fixed height for all images */
+    width: 400px;  /* Set a fixed width for all images */
+    object-fit: cover; /* Ensure images fill the container without distortion */
+    border-radius: 8px; /* Optional: Add rounded corners for a smoother look */
+}
+
+/* Style for Previous and Next Buttons */
+button.prev, button.next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    font-size: 30px;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 100;
+}
+
+button.prev {
+    left: 10px;
+}
+
+button.next {
+    right: 10px;
+}
+
+/* Hover effect for the arrows */
+button.prev:hover, button.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
 
 /* Section for Gallery */
 .gallery {
