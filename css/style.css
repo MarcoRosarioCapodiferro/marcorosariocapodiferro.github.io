@@ -52,12 +52,12 @@ header nav a:hover {
 }
 
 /* Section for About */
-.about, .education, .contact-links {
+.about, .contact-links {
     text-align: center;
     padding: 40px;
 }
 
-.about p, .education ul, .contact-links p {
+.about p, .contact-links p {
     margin: 0 auto;
     max-width: 800px;
     text-align: left;
