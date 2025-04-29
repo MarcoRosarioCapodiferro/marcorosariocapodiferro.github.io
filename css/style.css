@@ -32,7 +32,7 @@ header nav a:hover {
 .profile-pic {
     width: 150px;
     height: 150px;
-    object-fit: cover; 
+    object-fit: cover;
     margin-bottom: 20px;
 }
 
@@ -98,6 +98,60 @@ header nav a:hover {
     transform: scale(1.05); /* Hover effect to slightly zoom in */
 }
 
+
+/* Carousel Section */
+.image-carousel {
+    padding: 20px 0;
+    text-align: center;
+    background-color: #121212;
+    position: relative; /* To position the arrows */
+    height: 600px; /* Adjust based on your needs */
+}
+
+.carousel-container {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.carousel-images {
+    display: flex;
+    transition: transform 0.3s ease-in-out;
+}
+
+.carousel-images img {
+    margin: 0 10px;
+    height: 100%;
+    width: auto;
+    object-fit: cover;
+}
+
+/* Style for Previous and Next Buttons */
+button.prev, button.next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    font-size: 30px;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 100;
+}
+
+button.prev {
+    left: 10px; /* Position left arrow */
+}
+
+button.next {
+    right: 10px; /* Position right arrow */
+}
+
+/* Optional: Hover effect for the arrows */
+button.prev:hover, button.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
 
 h2 {
     font-size: 2em;
