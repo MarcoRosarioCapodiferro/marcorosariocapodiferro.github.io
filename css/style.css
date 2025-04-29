@@ -30,8 +30,8 @@ header nav a:hover {
 }
 
 .profile-pic {
-    width: 150px;
-    height: 150px;
+    width: 300px;
+    height: 300px;
     object-fit: cover;
     margin-bottom: 20px;
 }
@@ -239,46 +239,46 @@ button.prev:hover, button.next:hover {
     padding: 40px;
     background-color: #121212;
     color: #e0e0e0;
-    text-align: center;  /* Center the text */
+    text-align: center;
+    margin: 0 auto;
+    max-width: 1000px; /* Set a maximum width */
 }
 
-.latest-news h2 {
-    font-size: 2em;
-    margin-bottom: 20px;
-}
-
+/* News Item Section */
 .latest-news .news-item {
-    margin-bottom: 30px;
+    background-color: #1f1f1f;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
 }
 
-.latest-news .news-item h3 {
+/* News Title */
+.latest-news h3 {
     font-size: 1.8em;
+    margin-bottom: 10px;
+    color: #90caf9;
+}
+
+/* News Description */
+.latest-news p {
+    font-size: 1.1em;
+    line-height: 1.6;
     margin-bottom: 10px;
 }
 
-.latest-news .news-item a {
-    color: #90caf9;
-    text-decoration: none;
-}
-
-.latest-news .news-item a:hover {
-    text-decoration: underline;
-}
-
+/* Ensure the "View All News" link is centered */
 .latest-news .view-all-news {
-    display: inline-block;
-    margin-top: 20px;
     font-size: 1.2em;
     color: #90caf9;
     text-decoration: none;
-    padding: 10px 20px;
-    border: 2px solid #90caf9;
-    border-radius: 5px;
+    text-align: center;
+    display: block;
+    margin-top: 20px;
 }
 
 .latest-news .view-all-news:hover {
-    background-color: #90caf9;
-    color: #121212;
+    color: #e0e0e0;
 }
 
 footer {
