@@ -24,7 +24,7 @@ header nav a {
 header nav a:hover {
     text-decoration: underline;
 }
-
+/* Section for Intro */
 /* Section for Intro */
 .intro {
     text-align: center;
@@ -53,6 +53,19 @@ header nav a:hover {
     margin: 0 auto;
     max-width: 800px;
     text-align: left;
+}
+
+.section-content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left;
+    padding: 20px;
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+.big-space {
+    margin-bottom: 40px;
 }
 /* Carousel Section */
 .image-carousel {
