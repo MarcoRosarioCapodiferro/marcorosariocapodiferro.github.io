@@ -30,8 +30,8 @@ header nav a:hover {
 }
 
 .profile-pic {
-    width: 250px;  /* Increase width */
-    height: 250px; /* Increase height */
+    width: 300px;  /* Increase width */
+    height: 300px; /* Increase height */
     object-fit: cover;  /* Keeps the aspect ratio while covering the area */
     margin-bottom: 20px; /* Maintain space below the image */
 }
