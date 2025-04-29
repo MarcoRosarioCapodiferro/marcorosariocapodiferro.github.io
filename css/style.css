@@ -189,3 +189,62 @@ footer {
     text-align: center;
     font-size: 14px;
 }
+/* Media Queries for Responsiveness */
+
+/* Small Devices (Mobile Phones) */
+@media (max-width: 600px) {
+    header nav a {
+        display: block;
+        margin: 5px 0;
+    }
+
+    .intro, .about, .education, .contact-links {
+        padding: 20px;
+    }
+
+    .profile-pic {
+        width: 120px;
+        height: 120px;
+    }
+
+    .image-carousel {
+        height: 300px; /* Adjust carousel height */
+    }
+
+    .carousel-images img {
+        width: 80%; /* Make the images fit better on smaller screens */
+        height: auto;
+    }
+
+    footer {
+        font-size: 12px;
+    }
+}
+
+/* Medium Devices (Tablets) */
+@media (max-width: 768px) {
+    .intro {
+        margin: 30px auto;
+    }
+
+    .profile-pic {
+        width: 130px;
+        height: 130px;
+    }
+
+    .carousel-images img {
+        width: 90%;
+    }
+}
+
+/* Large Devices (Larger Screens) */
+@media (min-width: 1200px) {
+    .carousel-images img {
+        width: 400px; /* Keep larger images for bigger screens */
+        height: 300px;
+    }
+
+    .section-content {
+        max-width: 1000px;
+    }
+}
