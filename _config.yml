@@ -5,3 +5,4 @@ url: "https://marcorosariocapodiferro.github.io"
 
 plugins:
   - jekyll-seo-tag
+  - jekyll-sitemap
