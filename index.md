@@ -1,6 +1,7 @@
 ---
 layout: default
 title: "Marco Rosario Capodiferro"
+permalink: /home/
 ---
 
 <section class="intro">

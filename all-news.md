@@ -1,6 +1,7 @@
 ---
 layout: default
 title: "All News"
+permalink: /all-news/
 ---
 
 <section class="latest-news">
