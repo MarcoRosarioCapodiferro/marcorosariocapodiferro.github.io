@@ -1,0 +1,7 @@
+title: "Marco Rosario Capodiferro"
+description: "Postdoctoral researcher in population genomics and ancient DNA"
+baseurl: "" # Leave empty for GitHub Pages root sites
+url: "https://marcorosariocapodiferro.github.io"
+
+plugins:
+  - jekyll-seo-tag
