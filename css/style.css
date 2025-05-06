@@ -24,6 +24,27 @@ header nav a {
 header nav a:hover {
     text-decoration: underline;
 }
+
+/* Responsive Navigation Links */
+.nav-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px 0;
+}
+
+.nav-links a {
+    color: #90caf9;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.nav-links a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
 /* General Link Styling */
 a {
     color: #90caf9; /* Light blue, readable on dark background */
@@ -321,7 +342,11 @@ footer {
         border-bottom: 1px solid #333;
         padding: 10px 0;
     }
-
+	.nav-links {
+		flex-direction: column;
+		align-items: center;
+		gap: 12px;
+	}
     .intro,
     .about,
     .contact-links {
