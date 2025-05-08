@@ -367,7 +367,21 @@ footer {
         max-width: 200px;
         height: auto;
     }
+	.profile-links {
+	  margin-top: 0.5em;
+	  font-size: 0.9em;
+	  text-align: center;
+	}
 
+	.profile-links a {
+	  color: #666;
+	  text-decoration: none;
+	  margin: 0 4px;
+	}
+
+	.profile-links a:hover {
+	  text-decoration: underline;
+	}
     .gallery-grid {
         grid-template-columns: 1fr;
     }
